@@ -32,4 +32,5 @@ spec:
             - name: http
               containerPort: 80
         - name: echo
-          image: ghcr.io/jpubdocker/echo:v0.1.0-slim
+          # 1 빌드한 컨테이너 이미지 
+          image: ghcr.io/dathea/echo:v0.1.0-slim # {"$imagepolicy": "flux-system:echo"}
